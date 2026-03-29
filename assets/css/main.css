@@ -14,6 +14,16 @@
   --border: #e1e4e8;
 }
 
+[data-theme="dark"] {
+  --primary: #93c5fd;
+  --secondary: #60a5fa;
+  --text: #e2e8f0;
+  --text-light: #94a3b8;
+  --bg: #0f172a;
+  --bg-gray: #1e293b;
+  --border: #334155;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
@@ -334,6 +344,54 @@ footer {
 
 .social-links a:hover {
   opacity: 0.8;
+}
+
+/* Dark mode overrides */
+[data-theme="dark"] body {
+  background: var(--bg);
+}
+
+[data-theme="dark"] nav {
+  background: #0f172a;
+  border-bottom-color: var(--border);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] footer {
+  background: #020617;
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] textarea {
+  background: var(--bg-gray);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .project-card {
+  background: var(--bg-gray);
+}
+
+[data-theme="dark"] .project-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Bouton toggle dark mode */
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  transition: background 0.2s, border-color 0.2s;
+  margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  background: var(--bg-gray);
 }
 
 /* Responsive */
