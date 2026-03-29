@@ -4,8 +4,8 @@ email: stevendarboux@gmail.com
 description: >-
   Portfolio professionnel de développeur web. 
   Découvrez mes projets et mon parcours.
-baseurl: ""
-url: "https://studious-barnacle-yvq4z99.pages.github.io"
+baseurl: "/PortfolioA"
+url: "https://stevendarboux-a11y.github.io"
 
 # Author info
 author:

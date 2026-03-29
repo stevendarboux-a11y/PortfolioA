@@ -2,7 +2,7 @@
 layout: about
 title: À propos de moi
 permalink: /about/
-photo: assets/img/35DCF324-9880-48D9-A5A3-E1C0EFD58DC8.PNG # Décommentez si vous avez une vraie photo
+photo: assets/img/35DCF324-9880-48D9-A5A3-E1C0EFD58DC8 copie.PNG
 ---
 
 ## Qui suis-je ?
