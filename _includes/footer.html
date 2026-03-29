@@ -1,0 +1,18 @@
+<footer>
+  <div class="social-links">
+    {% if site.author.github %}
+    <a href="https://github.com/{{ site.author.github }}" target="_blank"
+      >GitHub</a
+    >
+    {% endif %} {% if site.author.linkedin %}
+    <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank"
+      >LinkedIn</a
+    >
+    {% endif %}
+    <a href="mailto:{{ site.email }}">Email</a>
+  </div>
+  <p>
+    &copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Tous droits
+    réservés.
+  </p>
+</footer>

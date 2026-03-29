@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="project-hero">
+  <div class="container">
+    <a href="{{ '/projets' | relative_url }}" class="project-back-link">← Retour aux projets</a>
+    {% if page.icon %}
+    <div class="project-hero-icon">{{ page.icon }}</div>
+    {% endif %}
+    <h1 class="project-hero-title">{{ page.title }}</h1>
+    {% if page.tags %}
+    <div class="project-hero-tags">
+      {% for tag in page.tags %}
+        <span class="tag-badge">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<section class="project-detail">
+  <div class="container">
+
+    <div class="project-info-bar">
+      <div class="project-info-tech">
+        <span class="info-label">Technologies</span>
+        <span>{{ page.tech }}</span>
+      </div>
+      <div class="project-info-links">
+        {% if page.github %}
+        <a href="{{ page.github }}" class="btn-outline" target="_blank">Voir sur GitHub</a>
+        {% endif %}
+        {% if page.demo %}
+        <a href="{{ page.demo }}" class="btn" target="_blank">Voir la démo →</a>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="project-body">
+      {{ content }}
+    </div>
+
+  </div>
+</section>

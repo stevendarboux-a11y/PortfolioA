@@ -1,0 +1,65 @@
+# Site settings
+title: "Arnold Darboux - Portfolio"
+email: stevendarboux@gmail.com
+description: >-
+  Portfolio professionnel de développeur web. 
+  Découvrez mes projets et mon parcours.
+baseurl: ""
+url: "https://studious-barnacle-yvq4z99.pages.github.io"
+
+# Author info
+author:
+  name: "Arnold Darboux"
+  initials: "AD"
+  bio: "Développeur Web Full Stack"
+  location: "Lille, France"
+  github: "stevendarboux-a11y"
+  linkedin: "votre-profil"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projets/:name/
+
+# Include pages folder
+include:
+  - _pages
+
+# Defaults for pages
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "_projects"
+      type: "projects"
+    values:
+      layout: "project"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md

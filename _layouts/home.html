@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<section id="accueil" class="hero">
+    <div class="hero-content">
+        <h1>{{ site.author.name }}</h1>
+        <p class="subtitle">{{ site.author.bio }}</p>
+        <p>{{ page.intro }}</p>
+        <a href="{{ '/projets' | relative_url }}" class="btn">Voir mes projets</a>
+    </div>
+</section>
+
+<section id="projets" class="section-alt">
+    <div class="container">
+        <h2>Mes Projets Récents</h2>
+        <div class="projects-grid">
+            {% for project in site.projects limit:3 %}
+            <div class="project-card">
+                <div class="project-image">{{ project.icon | default: "🚀" }}</div>
+                <div class="project-content">
+                    <h3>{{ project.title }}</h3>
+                    <p>{{ project.excerpt }}</p>
+                    <div class="project-tags">
+                        {% for tag in project.tags %}
+                        <span class="tag">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                    <a href="{{ project.url | relative_url }}" class="btn-small">En savoir plus →</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Contenu Markdown additionnel s'insère ici -->
+<div class="container" style="padding: 4rem 2rem;">
+    {{ content }}
+</div>

@@ -1,0 +1,24 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Ruby
+.bundle/
+vendor/
+
+# macOS
+.DS_Store_site/
+.jekyll-cache/
+.sass-cache/
+
+# Ruby
+.bundle/
+vendor/
+
+# macOS
+.DS_Store_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
