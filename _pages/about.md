@@ -2,7 +2,7 @@
 layout: about
 title: À propos de moi
 permalink: /about/
-photo: assets/img/35DCF324-9880-48D9-A5A3-E1C0EFD58DC8 copie.PNG
+photo: "assets/img/arnold-darboux copie.jpg"
 ---
 
 ## Qui suis-je ?

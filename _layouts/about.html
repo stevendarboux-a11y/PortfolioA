@@ -4,27 +4,25 @@ layout: default
 
 <section class="page-content">
   <div class="container">
-    <h1>{{ page.title }}</h1>
-
-    <div class="about-grid">
+    <div class="about-centered">
       <!-- Photo de profil -->
-      <div>
-        <div class="profile-image">
-          {% if page.photo %}
-          <img
-            src="{{ page.photo | relative_url }}"
-            alt="{{ site.author.name }}"
-            style="
-              width: 100%;
-              height: 100%;
-              object-fit: cover;
-              object-position: 50% 20%;
-              border-radius: 12px;
-            "
-          />
-          {% else %} 👨‍💻 {% endif %}
-        </div>
+      <div class="profile-image">
+        {% if page.photo %}
+        <img
+          src="{{ page.photo | relative_url }}"
+          alt="{{ site.author.name }}"
+          style="
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 25%;
+            border-radius: 12px;
+          "
+        />
+        {% else %} 👨‍💻 {% endif %}
       </div>
+
+      <h1>{{ page.title }}</h1>
 
       <!-- Contenu principal -->
       <div class="about-text">{{ content }}</div>
