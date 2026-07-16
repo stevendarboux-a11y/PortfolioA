@@ -27,20 +27,6 @@ Créer des expériences web **intuitives**, **performantes** et **évolutives** 
 
 ### 🎓 Formation
 
-**STUDI - LA GRANDE ÉCOLE EN LIGNE**  
-<span class="timeline-date">2023 - 2024</span>
-
-<ul class="custom-list">
-<li>Bachelor Communication Digitale</li>
-<li>Spécialisation en stratégie de communication et web design</li>
-<li>Projets en autonomie</li>
-<li>Pédagogie par projets</li>
-</ul>
-
-</div>
-
-<div class="timeline-item" markdown="1">
-
 **EPITECH - École de l'Innovation et de l'Expertise Informatique**  
 <span class="timeline-date">2025 - 2027</span>
 
@@ -48,6 +34,20 @@ Créer des expériences web **intuitives**, **performantes** et **évolutives** 
 <li>Programme Web@cadémie en 2 ans</li>
 <li>Spécialisation en développement web</li>
 <li>Projets en équipe et en autonomie</li>
+<li>Pédagogie par projets</li>
+</ul>
+
+</div>
+
+<div class="timeline-item" markdown="1">
+
+**STUDI - LA GRANDE ÉCOLE EN LIGNE**  
+<span class="timeline-date">2023 - 2024</span>
+
+<ul class="custom-list">
+<li>Bachelor Communication Digitale</li>
+<li>Spécialisation en stratégie de communication et web design</li>
+<li>Projets en autonomie</li>
 <li>Pédagogie par projets</li>
 </ul>
 
@@ -77,17 +77,22 @@ Créer des expériences web **intuitives**, **performantes** et **évolutives** 
 
 <div class="skill-card">
 <strong>Front-end</strong>
-<p>JavaScript, HTML5, CSS3, Tailwind CSS, Markdown</p>
+<p>JavaScript (ES6+), React, HTML5, CSS3, Tailwind CSS, Markdown</p>
 </div>
 
 <div class="skill-card">
 <strong>Back-end</strong>
-<p>Node.js, PHP, Ruby</p>
+<p>Node.js, Express, PHP, Laravel, Java, Spring Boot, Spring Security</p>
+</div>
+
+<div class="skill-card">
+<strong>Bases de données</strong>
+<p>MySQL, MongoDB, Hibernate/JPA</p>
 </div>
 
 <div class="skill-card">
 <strong>DevOps & Outils</strong>
-<p>Git, GitHub, Bash (scripts de build et déploiement)</p>
+<p>Git, GitHub, Docker, Maven, JWT, Jest, Bash (scripts de build et déploiement)</p>
 </div>
 
 </div>
