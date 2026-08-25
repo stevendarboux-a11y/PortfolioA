@@ -5,6 +5,7 @@ icon: "🎓"
 tags: [React, Node.js, Express, MongoDB, Docker, JWT]
 tech: "React, Vite, Node.js, Express, MongoDB, JWT, Jest, Docker, Git, GitHub"
 github: "https://github.com/stevendarboux-a11y/SlayLab"
+demo: "https://slay-lab.vercel.app"
 order: 5
 ---
 
@@ -28,6 +29,13 @@ Corelab est un LMS (Learning Management System) permettant de gérer des formati
 - **Authentification:** JWT, bcrypt
 - **Tests:** Jest, Supertest
 - **Infrastructure:** Docker, Docker Compose
+
+## Accès à la démo
+
+- **Espace admin :** `admin@corelab.dev` / `Admin1234!`
+- **Espace étudiant :** `bob@corelab.dev` / `Student1234!`
+
+> Le backend est hébergé gratuitement (Render) : la première requête peut prendre 30-50 secondes le temps que le serveur se réveille.
 
 ## Défis techniques
 
