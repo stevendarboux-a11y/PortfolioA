@@ -5,7 +5,7 @@ icon: "🎓"
 tags: [React, Node.js, Express, MongoDB, Docker, JWT]
 tech: "React, Vite, Node.js, Express, MongoDB, JWT, Jest, Docker, Git, GitHub"
 github: "https://github.com/stevendarboux-a11y/SlayLab"
-demo: "https://slay-lab.vercel.app"
+demo: "https://corelab-arnolddarboux.vercel.app"
 order: 5
 ---
 
